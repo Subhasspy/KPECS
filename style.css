@@ -58,16 +58,19 @@ path {
   }
 
 img{
-  height: 15%;
-  width:10%;  
+  height: 18%;
+  width:15%;  
 }
 
 h2{
+  font-size: 1.1em;
   font-family: "Reddit Mono", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 h1{
+  color: #0A6847;
+  font-size: 1.5em;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
