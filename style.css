@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Space+Grotesk:wght@300..700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(asserts/comingSoon.jpg) #0CC0DF no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+  position: relative;
+    width:40%;
+    height: 50%;
+    background: rgba(255, 255, 255, 0.628);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    animation: border-animation 1s ease forwards;
+}
+@keyframes border-animation {
+  from{
+    opacity: 0;
+    border-radius: 100%;
+  }
+  
+  to{
+    border-radius:30px;
+    opacity: 1;
+  }
+  
+}
+path {
+
+    animation: strokeAnim 2s infinite ;
+  }
+  
+  @keyframes strokeAnim {
+    from {
+      opacity: .2;
+      stroke-dashoffset: 1000;
+    }
+    
+    to {
+        fill:#d5df1b;
+      stroke-dashoffset: 0;
+    }
+  }
+
+img{
+  height: 15%;
+  width:10%;  
+}
+
+h2{
+  font-family: "Reddit Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+h1{
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+@media(width<1050px){
+    body {
+        background: url(asserts/MobileComingSoon.jpg) #0CC0DF;
+        background-size: cover;
+        height: 100dvh;
+    }
+    div{
+        width:70%;
+        height: 40%;
+    }
+}
