@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-div{
+#CS{
   position: relative;
     width:40%;
     height: 50%;
@@ -64,14 +64,14 @@ img{
 
 h2{
   font-size: 1.1em;
-  font-family: "Reddit Mono", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 h1{
-  color: #0A6847;
+  color: #1d0b8f;
   font-size: 1.5em;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Reddit Mono", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -81,7 +81,7 @@ h1{
         background-size: cover;
         height: 100dvh;
     }
-    div{
+    #CS{
         width:70%;
         height: 40%;
     }
